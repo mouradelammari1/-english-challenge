@@ -5,9 +5,13 @@
 /* Three-class learning hub */
 .hub-intro{padding:45px 0 24px}.hub-intro h1{font-size:clamp(38px,5vw,58px)}.class-picker{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin:6px 0 35px}.class-picker button{min-height:68px;background:#f0f2e8;border:1px solid #cbd4c0;border-radius:10px;color:var(--ink);font-size:19px;font-weight:700}.class-picker button[aria-pressed="true"]{background:var(--green);color:white;border-color:var(--green)}.hub-note{font-size:13px;color:var(--muted);max-width:750px;margin:0 0 20px}.subject-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:15px;margin-bottom:35px}.subject-tile{display:flex;flex-direction:column;text-align:left;gap:9px;border:1px solid var(--line);border-radius:12px;background:#fffdf8;padding:22px;color:var(--ink);min-height:155px}.subject-tile:hover,.subject-tile[aria-expanded="true"]{border-color:var(--green);background:#edf1e6}.subject-number{font-size:11px;color:#76816d;letter-spacing:1px}.subject-name{font:23px Georgia}.subject-status{font-size:11px;color:var(--muted);margin-top:auto}.subject-panel{padding:28px;border:1px solid var(--line);border-radius:12px;margin:0 0 35px;background:white}.subject-panel h2{margin-bottom:15px}.subject-panel p{color:var(--muted);font-size:14px}.subject-panel .start{max-width:330px;margin-top:18px}#class-return{margin-top:22px}#class-context{margin-top:12px}#home .hero{padding-top:25px}@media(max-width:760px){.subject-grid{grid-template-columns:repeat(2,1fr)}.class-picker{gap:9px}.class-picker button{font-size:16px}}@media(max-width:420px){.subject-grid{grid-template-columns:1fr}.subject-tile{min-height:120px}.hub-intro{padding-top:30px}}
 
+.teacher-link{background:transparent;border:1px solid var(--line);border-radius:6px;padding:8px 11px;font-size:12px;color:var(--ink)}.cloud-status{font-size:11px;color:var(--muted);margin:14px 0}#teacher-dialog{width:min(700px,94vw);max-height:90vh;border:1px solid var(--line);border-radius:15px;padding:25px;color:var(--ink);background:var(--cream)}#teacher-dialog::backdrop{background:#152c24a8}.teacher-dialog-head{display:flex;justify-content:space-between;align-items:center;gap:15px}.teacher-dialog-head button{background:none;border:1px solid var(--line);padding:8px 13px;border-radius:6px}.teacher-form label{display:block;font-size:13px;font-weight:600;margin:16px 0 5px}.teacher-form input,.teacher-form textarea,.teacher-form select{display:block;width:100%;padding:11px;border:1px solid #b4c1ac;border-radius:6px;background:white;color:var(--ink);font:16px/1.5 Arial}.teacher-form textarea{min-height:130px;resize:vertical}.teacher-form .start{margin-top:18px}.teacher-actions{display:flex;flex-wrap:wrap;gap:10px;margin:18px 0}.teacher-actions button{padding:9px 13px;border:1px solid var(--line);border-radius:6px;background:#edf1e6;color:var(--ink)}#teacher-status{font-size:13px;white-space:pre-wrap}.lesson-body{white-space:pre-wrap;overflow-wrap:anywhere}.published-lesson{border-left:3px solid #708b5b;padding-left:20px;margin:20px 0}.teacher-preview{background:white;border:1px solid var(--line);padding:20px;border-radius:7px;margin-top:15px}.teacher-warning{font-size:12px;color:#795231}.teacher-form fieldset{border:1px solid var(--line);border-radius:8px;margin-top:20px}.teacher-form legend{font-weight:600;font-size:13px}@media(max-width:520px){header{flex-wrap:wrap;height:auto;min-height:100px;padding:12px 0;gap:8px}.brand{font-size:15px}.teacher-link{font-size:11px}.nav-link{margin-left:auto}#teacher-dialog{padding:18px}.teacher-dialog-head h2{font-size:24px}}
+/* Guided writing workshop: short steps, large controls, optional support. */
+.writing-workshop{margin-top:22px;max-width:850px}.writing-banner{background:#edf1e6;padding:24px;border-radius:12px}.writing-banner h2{font-size:30px}.writing-banner .eyebrow{margin-bottom:10px}.writing-workshop p{font-size:15px;line-height:1.8}.writing-workshop .writing-hint{font-size:12px;line-height:1.7;color:#5b685b}.writing-help{background:#f6f0e5;border-left:3px solid #a57c49;padding:15px 20px;margin:18px 0}.writing-help p{margin:6px 0}.writing-step{border:1px solid var(--line);border-radius:10px;background:#fffdf8;margin:14px 0;overflow:hidden}.writing-step>summary{font-weight:700;padding:18px;cursor:pointer;min-height:58px;font-size:16px}.writing-step[open]>summary{background:#edf1e6}.writing-step-body{padding:5px 20px 20px}.writing-workshop label:not(.writing-check){display:block;font-weight:700;font-size:14px;margin:18px 0 7px}.writing-workshop textarea,.writing-workshop select{display:block;width:100%;border:1px solid #a4b29a;border-radius:7px;background:white;padding:12px;color:var(--ink);font:16px/1.7 Arial;resize:vertical}.writing-workshop textarea:focus-visible,.writing-workshop select:focus-visible{outline:3px solid #aa572b;outline-offset:3px}.writing-support{margin:18px 0;border:1px dashed #b6c0a7;border-radius:7px;padding:12px 15px}.writing-support summary{cursor:pointer;font-size:14px;font-weight:600;min-height:30px}.writing-model{padding-left:28px;border-left:3px solid #a5b68e;margin:20px 0}.writing-model li{padding:7px 0 7px 8px;font-size:15px}.writing-question{border:1px solid var(--line);border-radius:8px;margin:25px 0 15px;padding:15px;min-width:0}.writing-question legend{font-size:15px;font-weight:700;padding:0 8px}.writing-options{display:grid;gap:9px}.writing-options button{min-height:48px;text-align:left;background:#f4f6ef;border:1px solid #c9d2c0;border-radius:7px;padding:12px;color:var(--ink);font-size:14px;line-height:1.6;white-space:normal}.writing-options button:hover{background:#e5edda}.writing-feedback:empty{display:none}.writing-feedback{border-left:3px solid #6e8854;padding:8px 13px;background:#edf1e6;font-size:14px!important}.writing-check{display:flex;gap:12px;align-items:flex-start;padding:12px 0;font-size:14px;line-height:1.7;cursor:pointer}.writing-check input{width:20px;height:20px;flex-shrink:0;margin-top:2px;accent-color:var(--green)}.writing-actions{display:flex;gap:12px;flex-wrap:wrap;margin:25px 0 10px}.writing-actions button{min-height:48px;border:1px solid var(--green);background:var(--green);color:white;border-radius:7px;padding:12px 18px;font-size:14px}.writing-actions button+button{background:white;color:var(--green)}#writing-word-count{font-weight:700;color:var(--ink)}.writing-step blockquote{border-left:3px solid #bcbdac;padding:12px 17px;margin:18px 0;background:#f4f4ef;font-size:14px;line-height:1.8}@media(max-width:520px){.subject-panel{padding:18px}.writing-step-body{padding:5px 13px 15px}.writing-banner{padding:18px}.writing-banner h2{font-size:25px}.writing-step>summary{padding:15px;font-size:15px}.writing-actions{flex-direction:column}.writing-actions button{width:100%}.writing-question{padding:12px}.writing-model{padding-left:22px}}
+
 </style></head>
-<body><a class="skip" href="#main">Skip to content</a><header><a class="brand" href="index.html"><span class="brand-icon" aria-hidden="true">e<span>✦</span></span> English Challenge<span class="beta">CPGE EDITION</span></a><a class="nav-link" href="#how">How to play <span aria-hidden="true">↗</span></a></header>
-<main id="main"><section id="class-hub" aria-labelledby="hub-title">
+<body><a class="skip" href="#main">Skip to content</a><header><a class="brand" href="index.html"><span class="brand-icon" aria-hidden="true">e<span>✦</span></span> English Challenge<span class="beta">CPGE EDITION</span></a><a class="nav-link" href="#how">How to play <span aria-hidden="true">↗</span></a><button id="teacher-open" class="teacher-link" type="button">Teacher login</button></header>
+<dialog id="teacher-dialog" aria-labelledby="teacher-title"><div class="teacher-dialog-head"><h2 id="teacher-title">Teacher workspace</h2><button id="teacher-close" type="button" aria-label="Close teacher workspace">✕</button></div><p id="teacher-status" role="status" aria-live="polite"></p><div id="teacher-workspace"></div></dialog><main id="main"><p id="cloud-status" class="cloud-status" role="status">Built-in activities available offline.</p><section id="class-hub" aria-labelledby="hub-title">
 <div class="hub-intro"><p class="eyebrow">YOUR CPGE ENGLISH CLASSROOM</p><h1 id="hub-title">Three classes.<br>One place to <em>grow.</em></h1><p class="intro">Choose your class, then explore your English learning space. Learn at your pace, online or offline.</p></div>
 <div class="class-picker" role="group" aria-label="Choose your class"><button data-class="MPSI 1" aria-pressed="true">MPSI 1</button><button data-class="MPSI 2" aria-pressed="false">MPSI 2</button><button data-class="TSI" aria-pressed="false">TSI</button></div>
 <div class="section-heading"><div><p class="eyebrow">YOUR LEARNING SPACE</p><h2 id="class-title">MPSI 1</h2></div><p>10 sections · Your next step starts here</p></div><p class="hub-note">Prototype: Vocabulary and Grammar include the existing shared Growth Mindset games. Other sections are ready for your class materials.</p>
@@ -63,7 +67,7 @@ const subjects = [
  ['Vocabulary', 'Build your word power.', 'Vocabulary Quest available', 'vocab'],
  ['Grammar', 'Build accurate, confident sentences.', 'Grammar Challenge available', 'grammar'],
  ['Remedial Work', 'Revisit difficulties and strengthen foundations.', 'Awaiting class materials'],
- ['Writing Assignments', 'Explore writing prompts and assignment instructions.', 'Awaiting class materials'],
+ ['Writing', 'Build a clear paragraph, one small step at a time.', 'Guided writing workshop available'],
  ['Quizzes', 'Practise and check your understanding.', '2 shared practice games available', 'quizzes'],
  ['Translation', 'Practise expressing meaning across languages.', 'Awaiting class materials'],
  ['Lesson Review', 'Revisit key ideas from your lessons.', 'Awaiting class materials'],
@@ -93,7 +97,7 @@ function openSubject(index){
   const games=subject[3]==='quizzes'?['vocab','grammar']:[subject[3]];
   games.forEach(type=>{const button=document.createElement('button');button.className='start';button.textContent='Start '+names[type]+' →';button.onclick=()=>openClassGame(type);subjectPanel.appendChild(button);});
  }else{
-  subjectPanel.innerHTML+='<p><strong>No class materials added yet.</strong> This space is reserved for your teacher’s lessons and activities. Assignments and submissions are not available in this prototype.</p>';
+  subjectPanel.innerHTML+='<p><strong>No class materials added yet.</strong> This space is reserved for your teacher’s lessons and activities. Submissions are not available in this prototype.</p>';
  }
  document.getElementById('subject-title').focus({preventScroll:true});subjectPanel.scrollIntoView({block:'nearest'});
 }
@@ -112,6 +116,236 @@ document.getElementById('return-to-class').onclick=returnToClass;
 // Keep the existing landing-page game controls within the selected class.
 document.querySelectorAll('[data-game]').forEach(b=>b.onclick=()=>openClassGame(b.dataset.game));
 chooseClass(selectedClass);
+
+// Public project configuration only. Never put a service_role/secret key here.
+const CPGE_BACKEND = { url: '', publicKey: '' };
+const builtInQuestions = JSON.parse(JSON.stringify(questions));
+let publishedContent = [], teacherSession = null, teacherAllowed = false;
+let editingClass = 'MPSI 1', editingSubject = 0, editingRevision = 0, publishing = false;
+const teacherDialog = document.getElementById('teacher-dialog');
+const teacherWorkspace = document.getElementById('teacher-workspace');
+function cloudConfigured(){return /^https:\/\/[a-z0-9-]+\.supabase\.co$/.test(CPGE_BACKEND.url)&&Boolean(CPGE_BACKEND.publicKey);}
+function escapeText(value){return String(value).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));}
+function publishedFor(cls,subject){return publishedContent.find(r=>r.class_name===cls&&r.subject_id===subject);}
+function teacherStatus(message){document.getElementById('teacher-status').textContent=message;}
+function validateDocument(doc,subject){
+ if(!doc||typeof doc.title!=='string'||!doc.title.trim()||doc.title.length>200)throw Error('Add a title of 1–200 characters.');
+ if(typeof doc.body!=='string'||doc.body.length>50000)throw Error('Lesson text must be under 50,000 characters.');
+ if(subject===0||subject===1){
+  if(!Array.isArray(doc.questions)||doc.questions.length!==10)throw Error('Keep exactly 10 questions in this game.');
+  for(const q of doc.questions){
+   if(!Array.isArray(q)||q.length!==4||typeof q[0]!=='string'||!q[0].trim()||q[0].length>1000||!Array.isArray(q[1])||q[1].length!==4||q[1].some(a=>typeof a!=='string'||!a.trim()||a.length>1000)||!Number.isInteger(q[2])||q[2]<0||q[2]>3||typeof q[3]!=='string'||!q[3].trim()||q[3].length>3000)throw Error('Every question needs a prompt, four choices, one correct choice, and an explanation.');
+  }
+ }
+ return doc;
+}
+async function backendRequest(path,options={}){
+ const controller=new AbortController();const timeout=setTimeout(()=>controller.abort(),12000);
+ try{
+  const response=await fetch(CPGE_BACKEND.url+path,{...options,signal:controller.signal,headers:{apikey:CPGE_BACKEND.publicKey,'Content-Type':'application/json',...(teacherSession?{Authorization:'Bearer '+teacherSession.access_token}:{}),...options.headers}});
+  const text=await response.text();let data;try{data=text?JSON.parse(text):null;}catch{throw Error('Unexpected server response. Please try again.');}
+  if(!response.ok){
+   if(response.status===401){teacherSession=null;teacherAllowed=false;throw Error('Your session expired. Close this window and sign in again. Your lesson has not been saved.');}
+   throw Error(data?.message||data?.msg||data?.error_description||'The server could not complete this action.');
+  }
+  return data;
+ }catch(error){if(error.name==='AbortError')throw Error('Connection timed out. Please try again.');throw error;}
+ finally{clearTimeout(timeout);}
+}
+async function loadPublished(){
+ if(!cloudConfigured())return;
+ const data=await backendRequest('/rest/v1/cpge_content?select=class_name,subject_id,document,revision');
+ if(!Array.isArray(data))throw Error('Could not load class content.');
+ publishedContent=data.filter(r=>{try{return classNames.includes(r.class_name)&&Number.isInteger(r.subject_id)&&r.subject_id>=0&&r.subject_id<10&&Number.isInteger(r.revision)&&Boolean(validateDocument(r.document,r.subject_id));}catch{return false;}});
+ document.getElementById('cloud-status').textContent='Published class materials loaded. Built-in games also work offline.';
+}
+const baseOpenSubject = openSubject;
+openSubject = function(index){
+ baseOpenSubject(index);
+ const row=publishedFor(selectedClass,index);if(!row)return;
+ if(!subjects[index][3]){
+  subjectPanel.innerHTML=`<p class="eyebrow">${selectedClass} · ENGLISH</p><h2 id="subject-title" tabindex="-1">${subjects[index][0]}</h2>`;
+ }
+ const article=document.createElement('article');article.className='published-lesson';
+ const title=document.createElement('h3');title.textContent=row.document.title;
+ const body=document.createElement('div');body.className='lesson-body';body.textContent=row.document.body;
+ article.appendChild(title);article.appendChild(body);subjectPanel.appendChild(article);
+};
+const baseOpenClassGame = openClassGame;
+openClassGame = function(type){
+ const row=publishedFor(selectedClass,type==='vocab'?0:1);
+ const bank=row?.document.questions||builtInQuestions[type];
+ // The original quiz uses HTML templates; escape every remotely authored string.
+ questions[type]=bank.map(q=>[escapeText(q[0]),q[1].map(escapeText),q[2],escapeText(q[3])]);
+ baseOpenClassGame(type);
+};
+function showTeacherLogin(){
+ teacherWorkspace.innerHTML='';teacherStatus('');
+ if(!cloudConfigured()){
+  teacherStatus('Teacher login is awaiting backend setup. Student practice is available.');return;
+ }
+ if(teacherAllowed&&teacherSession){showTeacherEditor();return;}
+ teacherWorkspace.innerHTML='<form id="teacher-login-form" class="teacher-form"><p>Teacher accounts only. Students do not need to sign in.</p><label for="teacher-email">Email</label><input id="teacher-email" type="email" autocomplete="username" required><label for="teacher-password">Password</label><input id="teacher-password" type="password" autocomplete="current-password" required minlength="6"><button class="start" type="submit">Sign in</button><p class="teacher-warning">Use your administrator-created teacher account. Sign-in lasts until this page is closed or your session expires.</p></form>';
+ document.getElementById('teacher-login-form').onsubmit=async event=>{
+  event.preventDefault();const button=event.currentTarget.querySelector('button');button.disabled=true;teacherStatus('Signing in…');
+  try{
+   teacherSession=await backendRequest('/auth/v1/token?grant_type=password',{method:'POST',body:JSON.stringify({email:document.getElementById('teacher-email').value.trim(),password:document.getElementById('teacher-password').value})});
+   const rows=await backendRequest('/rest/v1/cpge_teachers?select=user_id');
+   teacherAllowed=Array.isArray(rows)&&rows.some(r=>r.user_id===teacherSession.user.id);
+   if(!teacherAllowed){teacherSession=null;throw Error('This account does not have teacher editing access.');}
+   await loadPublished();teacherStatus('Signed in. Choose a class and section.');showTeacherEditor();
+  }catch(error){teacherSession=null;teacherAllowed=false;teacherStatus(error.message);}
+  finally{button.disabled=false;}
+ };
+}
+function editorDocument(){
+ const row=publishedFor(editingClass,editingSubject);
+ if(row){editingRevision=row.revision;return JSON.parse(JSON.stringify(row.document));}
+ editingRevision=0;
+ return {title:subjects[editingSubject][0],body:'',...((editingSubject===0||editingSubject===1)?{questions:JSON.parse(JSON.stringify(builtInQuestions[editingSubject===0?'vocab':'grammar']))}:{})};
+}
+function showTeacherEditor(){
+ const doc=editorDocument();
+ teacherWorkspace.innerHTML=`<div class="teacher-actions"><button id="teacher-signout" type="button">Sign out</button><button id="teacher-reload" type="button">Reload published content</button></div><form id="teacher-edit-form" class="teacher-form"><label for="edit-class">Class</label><select id="edit-class">${classNames.map(c=>`<option ${c===editingClass?'selected':''}>${c}</option>`).join('')}</select><label for="edit-subject">Section</label><select id="edit-subject">${subjects.map((s,i)=>`<option value="${i}" ${i===editingSubject?'selected':''}>${s[0]}</option>`).join('')}</select><p class="teacher-warning">Switching class or section discards unsaved edits. Only “Publish to students” saves online.</p><label for="edit-title">Lesson title</label><input id="edit-title" required maxlength="200" value="${escapeText(doc.title)}"><label for="edit-body">Lesson text / activity instructions</label><textarea id="edit-body" maxlength="50000">${escapeText(doc.body)}</textarea>${doc.questions?doc.questions.map((q,i)=>`<details><summary>Question ${i+1}</summary><fieldset><legend>Question ${i+1}</legend><label for="q-${i}">Prompt</label><textarea id="q-${i}" required maxlength="1000">${escapeText(q[0])}</textarea>${q[1].map((a,j)=>`<label for="q-${i}-${j}">Choice ${'ABCD'[j]}</label><input id="q-${i}-${j}" value="${escapeText(a)}" maxlength="1000" required>`).join('')}<label for="correct-${i}">Correct choice</label><select id="correct-${i}">${q[1].map((_,j)=>`<option value="${j}" ${q[2]===j?'selected':''}>${'ABCD'[j]}</option>`).join('')}</select><label for="explain-${i}">Explanation</label><textarea id="explain-${i}" maxlength="3000" required>${escapeText(q[3])}</textarea></fieldset></details>`).join(''):''}<div class="teacher-actions"><button id="teacher-preview" type="button">Preview lesson</button></div><div id="teacher-preview-panel" class="teacher-preview" hidden></div><button class="start" id="teacher-publish" type="submit">Publish to students</button><p class="teacher-warning">Publishing updates this class and section for everyone. Other classes stay unchanged. Published text and practice answers are public learning materials.</p></form>`;
+ document.getElementById('edit-class').onchange=event=>{editingClass=event.target.value;showTeacherEditor();};
+ document.getElementById('edit-subject').onchange=event=>{editingSubject=Number(event.target.value);showTeacherEditor();};
+ document.getElementById('teacher-preview').onclick=()=>{
+  try{const d=readTeacherForm();const panel=document.getElementById('teacher-preview-panel');panel.hidden=false;panel.innerHTML=`<h3>${escapeText(d.title)}</h3><div class="lesson-body">${escapeText(d.body)}</div>${d.questions?d.questions.map((q,i)=>`<p><strong>${i+1}. ${escapeText(q[0])}</strong><br>${q[1].map((a,j)=>`${'ABCD'[j]}. ${escapeText(a)}`).join('<br>')}<br>Correct: ${'ABCD'[q[2]]}<br>${escapeText(q[3])}</p>`).join(''):''}`;teacherStatus('Preview only. Changes have not been saved.');}catch(error){teacherStatus(error.message);}
+ };
+ document.getElementById('teacher-reload').onclick=async()=>{
+  try{await loadPublished();showTeacherEditor();teacherStatus('Loaded the latest published content. Unsaved edits were discarded.');}catch(error){teacherStatus(error.message);}
+ };
+ document.getElementById('teacher-signout').onclick=async()=>{
+  try{await backendRequest('/auth/v1/logout',{method:'POST'});}catch{/* Always clear local session even offline. */}
+  teacherSession=null;teacherAllowed=false;showTeacherLogin();teacherStatus('Signed out on this page.');
+ };
+ document.getElementById('teacher-edit-form').onsubmit=publishTeacherForm;
+}
+function readTeacherForm(){
+ const doc={title:document.getElementById('edit-title').value.trim(),body:document.getElementById('edit-body').value};
+ if(editingSubject===0||editingSubject===1){doc.questions=Array.from({length:10},(_,i)=>[document.getElementById('q-'+i).value.trim(),Array.from({length:4},(_,j)=>document.getElementById(`q-${i}-${j}`).value.trim()),Number(document.getElementById('correct-'+i).value),document.getElementById('explain-'+i).value.trim()]);}
+ return validateDocument(doc,editingSubject);
+}
+async function publishTeacherForm(event){
+ event.preventDefault();if(publishing||!teacherAllowed||!teacherSession)return;
+ let doc;try{doc=readTeacherForm();}catch(error){teacherStatus(error.message);return;}
+ publishing=true;const form=event.currentTarget;const controls=Array.from(form.querySelectorAll('input,select,textarea,button'));controls.forEach(c=>c.disabled=true);
+ document.getElementById('teacher-reload').disabled=true;document.getElementById('teacher-signout').disabled=true;
+ teacherStatus('Publishing…');
+ try{
+  const rows=await backendRequest('/rest/v1/rpc/cpge_publish',{method:'POST',body:JSON.stringify({p_class:editingClass,p_subject:editingSubject,p_document:doc,p_expected_revision:editingRevision})});
+  if(!Array.isArray(rows)||rows.length!==1)throw Error('The save was not confirmed. Reload published content before trying again.');
+  const row=rows[0];publishedContent=publishedContent.filter(r=>!(r.class_name===editingClass&&r.subject_id===editingSubject));publishedContent.push(row);editingRevision=row.revision;
+  teacherStatus('Published successfully to '+editingClass+' · '+subjects[editingSubject][0]+'. Students see this after opening or refreshing the page.');
+ }catch(error){teacherStatus('Not confirmed as saved. '+error.message);}
+ finally{publishing=false;controls.forEach(c=>c.disabled=false);document.getElementById('teacher-reload').disabled=false;document.getElementById('teacher-signout').disabled=false;}
+}
+document.getElementById('teacher-open').onclick=()=>{teacherDialog.showModal();showTeacherLogin();};
+document.getElementById('teacher-close').onclick=()=>{if(!publishing)teacherDialog.close();};
+teacherDialog.addEventListener('cancel',event=>{if(publishing)event.preventDefault();});
+if(cloudConfigured())loadPublished().catch(()=>{document.getElementById('cloud-status').textContent='Online materials unavailable. Built-in activities are available offline. Refresh when connected to try again.';});
+
+// Unit 2, Lesson 4: guided writing. Student text remains on this device only.
+const writingLessonId = 'unit2-lesson4-v1';
+const writingChecks = [
+ {prompt:'Which sentence gives the main idea of the model paragraph?', options:['Procrastination can make CPGE work harder than it needs to be.','My cousin watches football every weekend.','Asking for help can also stop a small difficulty from becoming a bigger problem.'], correct:0, explanation:'The first sentence names the topic (procrastination) and gives a controlling idea: it makes CPGE work harder. The other relevant sentences explain that point.'},
+ {prompt:'Which words give the controlling idea—the specific point about procrastination?',options:['Procrastination','can make CPGE work harder than it needs to be','CPGE students'],correct:1,explanation:'“Procrastination” is the topic. “Can make CPGE work harder than it needs to be” tells us what the writer will explain about it.'},
+ {prompt:'Which sentence does NOT belong in this paragraph?',options:['The delay often creates more pressure later.','One useful response is to divide the work into smaller steps.','My cousin watches football every weekend.'],correct:2,explanation:'The football sentence does not explain procrastination or a useful response. Removing it keeps the paragraph focused. This is called unity.'},
+ {prompt:'What does the last sentence do?',options:['It introduces a new problem.','It closes the point and gives a final message.','It gives details about football.'],correct:1,explanation:'“For this reason, dealing with procrastination early can make studying more manageable” closes the paragraph by returning to its main point.'},
+ {prompt:'“The delay often creates more pressure later.” What does this detail explain?',options:['A result of procrastination','A new topic','A definition of teamwork'],correct:0,explanation:'This sentence explains an effect: delaying work leads to more pressure. A useful supporting detail answers “Why?”, “How?”, or “What happens?”.'},
+ {prompt:'Yassine received a disappointing mark, ___ he decided to review his mistakes. Choose a word that presents his decision as a result.',options:['so','because','but'],correct:0,explanation:'“So” shows a result: the disappointing mark led Yassine to review his mistakes. A different connector would express a different relationship.'},
+ {prompt:'Mina wants to improve her concentration, ___ she keeps checking her phone while studying.',options:['so','but','because'],correct:1,explanation:'“But” shows contrast: checking her phone works against her goal of concentrating. Each side is a complete clause.'},
+ {prompt:'The group disagreed at first, ___ they listened to each other and found a workable solution.',options:['because','so that','but'],correct:2,explanation:'“But” contrasts the initial disagreement with the group’s constructive response.'},
+ {prompt:'The pressure increased ___ he kept postponing the difficult task.',options:['because','so','but'],correct:0,explanation:'“Because” introduces the reason. Compare: “He kept postponing the difficult task, so the pressure increased.” “So” introduces the result.'},
+ {prompt:'Choose the clearest complete sentence.',options:['Because the workload difficult.','The workload is difficult, so planning is important.','The workload difficult and planning.'],correct:1,explanation:'“The workload is difficult” has a subject and a verb. “So” connects it to a complete result: “planning is important”.'}
+];
+const independentChecks = [
+ {prompt:'CPGE students usually ___ under considerable time pressure.',options:['work','are working','works'],correct:0,explanation:'“Usually” describes a habit. Use the present simple with the plural subject: students work.'},
+ {prompt:'This week, our group ___ a presentation on study strategies.',options:['prepare','is preparing','preparing'],correct:1,explanation:'For a temporary activity happening around now, use the present continuous: is preparing.'},
+ {prompt:'While I ___, my phone rang several times.',options:['revised','was revising','am revising'],correct:1,explanation:'Use the past continuous for an activity in progress when a shorter past event happened.'},
+ {prompt:'I ___ my study plan after the first test.',options:['change','was change','changed'],correct:2,explanation:'A completed event in the past takes the past simple: changed.'},
+ {prompt:'The pressure of several deadlines ___ planning important.',options:['make','makes','making'],correct:1,explanation:'The subject is “the pressure”, which is singular. Use makes, even though “deadlines” is plural.'},
+ {prompt:'One of the strategies ___ me focus.',options:['help','helps','helping'],correct:1,explanation:'“One” is the subject, so the singular form is needed: One of the strategies helps me focus.'},
+ {prompt:'Choose the natural noun phrase.',options:['plan study','study plan','studying of plan'],correct:1,explanation:'In “study plan”, the noun “study” describes the type of plan.'},
+ {prompt:'She developed ___ realistic revision plan after the test.',options:['a','an','these'],correct:0,explanation:'Use “a” before a singular countable noun phrase beginning with a consonant sound: a realistic revision plan.'},
+ {prompt:'___ strategy we discussed yesterday was useful.',options:['A','An','The'],correct:2,explanation:'Use “the” because the relative clause identifies a specific strategy.'},
+ {prompt:'Students should review ___ own mistakes.',options:['their','his','its'],correct:0,explanation:'“Students” is plural, so use the possessive adjective “their”.'},
+ {prompt:'___ mistakes can reveal what needs more practice.',options:['Review','Reviewing','To reviewing'],correct:1,explanation:'The -ing phrase “Reviewing mistakes” acts as the subject of this sentence.'},
+ {prompt:'He decided ___ for help before the next test.',options:['asking','ask','to ask'],correct:2,explanation:'Use an infinitive after “decided”: decided to ask.'},
+ {prompt:'Students should avoid ___ every difficult task until the last minute.',options:['leaving','to leave','leave'],correct:0,explanation:'Use the -ing form after “avoid”: avoid leaving.'},
+ {prompt:'One useful goal is ___ a study routine that can be maintained.',options:['to build','build','to building'],correct:0,explanation:'“To build” is an infinitive phrase explaining the goal.'}
+];
+const writingModel = [
+ 'Procrastination can make CPGE work harder than it needs to be.',
+ 'A student may delay a difficult exercise because it feels frustrating.',
+ 'The delay often creates more pressure later, so the student has less time to think carefully.',
+ 'One useful response is to divide the work into smaller steps and begin with one short task.',
+ 'My cousin watches football every weekend.',
+ 'Asking for help can also stop a small difficulty from becoming a bigger problem.',
+ 'For this reason, dealing with procrastination early can make studying more manageable.'
+];
+const writingCriteria = ['My topic sentence names one challenge and gives a clear controlling idea.','Every supporting detail stays on-topic.','I give at least one concrete reason, explanation, or example.','My ideas follow a logical order.','At least one sentence combination improves the flow.','Cause and effect are clear where needed.','My conclusion closes the point without adding a new topic.','My sentences are complete, readable, and not too long.'];
+let writingState = {}, writingClass = 'MPSI 1';
+function writingStorageKey(cls){return 'cpge-writing-'+writingLessonId+'-'+cls;}
+function countWritingWords(text){return String(text).trim().split(/\s+/).filter(token=>/[\p{L}\p{N}]/u.test(token)).length;}
+function writingLengthMessage(count){return count<130?`${130-count} more words to reach 130.`:count>160?`Remove at least ${count-160} words to stay within 160.`:'Within the 130–160 word range. Now check your ideas and sentences.';}
+function writingTextField(id,label,hint='',rows=3){return `<label for="${id}">${label}</label>${hint?`<p class="writing-hint" id="${id}-hint">${hint}</p>`:''}<textarea id="${id}" data-writing-field="${id}" rows="${rows}" ${hint?`aria-describedby="${id}-hint"`:''} placeholder="Write here…">${escapeText(writingState[id]||'')}</textarea>`;}
+function writingQuizMarkup(items,prefix){return items.map((item,i)=>`<fieldset class="writing-question"><legend>${i+1}. ${escapeText(item.prompt)}</legend><div class="writing-options">${item.options.map((o,j)=>`<button type="button" data-writing-check="${prefix}:${i}:${j}">${escapeText(o)}</button>`).join('')}</div><p id="${prefix}-feedback-${i}" class="writing-feedback" role="status" aria-live="polite"></p></fieldset>`).join('');}
+function writingChecklist(items,prefix){return items.map((item,i)=>`<label class="writing-check"><input type="checkbox" data-writing-tick="${prefix}-${i}" ${writingState[prefix+'-'+i]?'checked':''}> <span>${item}</span></label>`).join('');}
+function openWritingWorkshop(){
+ writingClass=selectedClass;writingState={};
+ try{const saved=JSON.parse(localStorage.getItem(writingStorageKey(writingClass))||'{}');if(saved&&typeof saved==='object'&&!Array.isArray(saved))writingState=saved;}catch{/* Storage can be blocked for local files. Writing still works. */}
+ const workspace=document.createElement('section');workspace.id='writing-workshop';workspace.className='writing-workshop';
+ workspace.innerHTML=`<div class="writing-banner"><p class="eyebrow">${writingClass} · UNIT 2 · LESSON 4</p><h2>From Challenge to Growth</h2><p>Write a clear paragraph, one small step at a time.</p><p class="writing-hint">Adapted from Prof. Mourad El-Ammari’s writing workshop, academic year 2026/2027. Take breaks whenever you need them.</p></div>
+ <p><strong>Your goal:</strong> write your own 130–160-word paragraph for a CPGE student advice page. Explain one challenge and a useful response.</p>
+ <div class="writing-help"><strong>Words to help you</strong><p><b>Challenge:</b> a difficulty · <b>Procrastination:</b> delaying work · <b>Setback:</b> a difficulty that slows your progress · <b>Strategy:</b> a plan of action · <b>Controlling idea:</b> the specific point your paragraph will explain.</p></div>
+ <p id="writing-save-status" role="status">Your work is not sent to your teacher. Use “Save on this device” or download a copy before leaving.</p>
+ <details class="writing-step" open><summary>1 · Start small</summary><div class="writing-step-body"><p>Choose <strong>one</strong> challenge. Then write 4–5 short sentences. It does not need to be perfect.</p><label for="writing-topic">My challenge</label><select id="writing-topic" data-writing-field="writing-topic">${['Time management / procrastination','A disappointing mark or setback','Difficulty participating or speaking','Teamwork / relationships'].map(t=>`<option ${writingState['writing-topic']===t?'selected':''}>${t}</option>`).join('')}</select><details class="writing-support"><summary>Show sentence starters</summary><p>One difficulty CPGE students face is …<br>This can happen because …<br>For example, …<br>One useful response is to …<br>This can help students …</p><p>Use only the starters you need. Add your own ideas.</p></details>${writingTextField('writing-first','My first attempt','Write 4–5 short sentences about the difficulty and one helpful response.',5)}</div></details>
+ <details class="writing-step"><summary>2 · Learn from a model</summary><div class="writing-step-body"><p>Read this paragraph. One sentence does not belong.</p><ol class="writing-model">${writingModel.map(s=>`<li>${s}</li>`).join('')}</ol><p>Choose an answer to get an explanation. You may try again.</p>${writingQuizMarkup(writingChecks.slice(0,5),'model')}<details class="writing-support"><summary>Remember the paragraph structure</summary><p><strong>Topic sentence:</strong> topic + controlling idea.<br><strong>Supporting details:</strong> reasons, explanations, examples, or results.<br><strong>Unity:</strong> every sentence supports the same point.<br><strong>Conclusion:</strong> close the point without adding a new topic.</p></details></div></details>
+ <details class="writing-step"><summary>3 · Improve your main idea</summary><div class="writing-step-body"><p>Return to your first attempt. Choose the sentence that tells the reader what your paragraph is about.</p><div class="writing-help"><p><b>Too broad:</b> CPGE is difficult.</p><p><b>More focused:</b> A disappointing mark can help CPGE students improve if they use it to identify what to practise.</p><p>The topic is <em>a disappointing mark</em>. The controlling idea is <em>using it to identify what to practise can help students improve</em>.</p></div>${writingTextField('writing-topic-sentence','My improved topic sentence','Name the challenge and give one specific point about it.',2)}${writingTextField('writing-details-check','Details I will keep or remove','Keep details that answer Why? How? or What example? Identify anything off-topic.',3)}</div></details>
+ <details class="writing-step"><summary>4 · Connect and repair sentences</summary><div class="writing-step-body"><div class="writing-help"><b>and</b> adds information · <b>but / yet</b> show contrast · <b>so</b> shows a result · <b>because</b> gives a reason.<p>Example: Salma studied for hours, <b>but</b> her method was ineffective, <b>so</b> she changed how she revised.</p></div>${writingQuizMarkup(writingChecks.slice(5),'connect')}${writingTextField('writing-cause','Make a cause or result clearer','Choose one idea from your first attempt. Rewrite it using because or so.',3)}<p><strong>Repair this long sentence:</strong></p><blockquote>A CPGE student may feel discouraged after a poor result because the workload is demanding and the student may think that failure proves a lack of ability and this can make the student avoid asking for help and then the problem becomes harder to solve.</blockquote>${writingTextField('writing-repair','My clearer version','Break it into two or more complete sentences. Keep the main meaning.',4)}<details class="writing-support"><summary>Compare with one possible answer</summary><p>A CPGE student may feel discouraged after a poor result because the workload is demanding. If the student thinks that failure proves a lack of ability, they may avoid asking for help. As a result, the problem becomes harder to solve.</p><p>Other clear versions are possible. Check the meaning, sentence boundaries, and connections—not just the exact words.</p></details></div></details>
+ <details class="writing-step"><summary>5 · Build your paragraph plan</summary><div class="writing-step-body"><p>Write notes first. Keep only ideas that support your main point.</p>${writingTextField('writing-brainstorm','Brainstorm','What happens? Why? What effect does it have? What example can I give? How can the student respond?',4)}${writingTextField('writing-plan-topic','1. Topic + controlling idea','What challenge will you explain? What specific point will you make?',2)}${writingTextField('writing-plan-reason','2. Supporting detail 1','Why does it happen, or why does it matter?',2)}${writingTextField('writing-plan-example','3. Supporting detail 2','Give one concrete example, effect, or specific difficulty.',2)}${writingTextField('writing-plan-response','4. A constructive response','What should the student do? Explain how this could help.',2)}${writingTextField('writing-plan-conclusion','5. Closing message','Restate your point or give final advice. Do not introduce a new topic.',2)}</div></details>
+ <details class="writing-step"><summary>6 · Write your own paragraph</summary><div class="writing-step-body"><p>Use your plan to write <strong>130–160 words</strong>. Write for other CPGE students. Keep one main point.</p><details class="writing-support"><summary>Open a paragraph frame</summary><p>[Challenge] can affect CPGE students because …<br>For example, …<br>This can lead to …<br>One useful response is …<br>This helps because …<br>For this reason, …</p><p>This frame helps you organise ideas. It is not a finished paragraph: develop your own explanations and examples.</p></details>${writingTextField('writing-draft','My paragraph','Write one paragraph. Focus on ideas and organisation before correcting small language errors.',10)}<p id="writing-word-count" role="status" aria-live="polite"></p><p class="writing-hint">The word count checks length only. It does not grade your writing.</p></div></details>
+ <details class="writing-step"><summary>7 · Review, revise, and edit</summary><div class="writing-step-body"><p>Read your paragraph aloud, or ask a classmate to read it. These are self-checks, not automatic marks.</p>${writingChecklist(writingCriteria,'writing-review')}${writingTextField('writing-strength','One strong point','What worked well?',2)}${writingTextField('writing-suggestion','One question or suggestion','What would help the reader understand your point?',2)}<p><strong>Revise first:</strong> make at least two meaningful changes to your ideas or organisation.</p>${writingTextField('writing-change-one','Revision 1: what I changed and why','Add, remove, move, or clarify an idea.',2)}${writingTextField('writing-change-two','Revision 2: what I changed and why','Check that every sentence supports your point.',2)}<p><strong>Then edit:</strong> correct sentence boundaries, punctuation, subject–verb agreement, tenses, and connectors. Make the changes in your paragraph in Step 6.</p>${writingChecklist(['I checked complete sentences and punctuation.','I checked subject–verb agreement and tenses.','I checked conjunctions and cause/effect expressions.'],'writing-edit')}${writingTextField('writing-reflection','The most useful change I made was…','Compare your first attempt and revised paragraph.',2)}${writingTextField('writing-next','In my next paragraph, I will pay more attention to…','Choose one useful next step.',2)}</div></details>
+ <details class="writing-step"><summary>8 · Practise the grammar, then apply it</summary><div class="writing-step-body"><p>Try these short questions based on the lesson’s independent practice. Each answer comes with an explanation.</p>${writingQuizMarkup(independentChecks,'independent')}${writingTextField('writing-apply','One grammar improvement in my paragraph','Write the original sentence, your corrected version, and what you improved.',4)}</div></details>
+ <div class="writing-actions"><button id="writing-save" type="button">Save on this device</button><button id="writing-download" type="button">Download my writing (.txt)</button></div><p class="writing-hint">Device saving depends on your browser and file access. Keep a downloaded copy. On a shared phone, your saved writing can be read by others using that browser.</p>`;
+ subjectPanel.appendChild(workspace);
+ document.querySelectorAll('[data-writing-field]').forEach(el=>el.oninput=()=>{writingState[el.dataset.writingField]=el.value;updateWritingCount();});
+ document.querySelectorAll('[data-writing-tick]').forEach(el=>el.onchange=()=>{writingState[el.dataset.writingTick]=el.checked;});
+ document.querySelectorAll('[data-writing-check]').forEach(button=>button.onclick=()=>{
+  const [prefix,question,answer]=button.dataset.writingCheck.split(':');
+  const bank=prefix==='model'?writingChecks.slice(0,5):prefix==='connect'?writingChecks.slice(5):independentChecks;
+  const item=bank[Number(question)];const correct=Number(answer)===item.correct;
+  const feedback=document.getElementById(`${prefix}-feedback-${question}`);
+  feedback.textContent=(correct?'✓ Correct. ':'Try again. ')+item.explanation;
+  button.setAttribute('aria-describedby',feedback.id);
+ });
+ document.getElementById('writing-save').onclick=saveWritingOnDevice;
+ document.getElementById('writing-download').onclick=downloadWriting;
+ updateWritingCount();
+}
+function collectWritingFields(){document.querySelectorAll('[data-writing-field]').forEach(el=>writingState[el.dataset.writingField]=el.value);document.querySelectorAll('[data-writing-tick]').forEach(el=>writingState[el.dataset.writingTick]=el.checked);}
+function updateWritingCount(){const el=document.getElementById('writing-word-count');if(el){const count=countWritingWords(writingState['writing-draft']||'');el.textContent=`${count} words. ${writingLengthMessage(count)}`;}}
+function saveWritingOnDevice(){
+ collectWritingFields();
+ try{localStorage.setItem(writingStorageKey(writingClass),JSON.stringify(writingState));document.getElementById('writing-save-status').textContent='Saved on this device for '+writingClass+'. This is not a submission to your teacher.';}
+ catch{document.getElementById('writing-save-status').textContent='Your browser could not save on this device. Download a text copy before leaving.';}
+}
+function writingExportText(){
+ const labels={'writing-topic':'Chosen challenge','writing-first':'First attempt','writing-topic-sentence':'Improved topic sentence','writing-details-check':'Relevant and irrelevant details','writing-cause':'Cause/result rewrite','writing-repair':'Sentence repair','writing-brainstorm':'Brainstorm','writing-plan-topic':'Plan: topic and controlling idea','writing-plan-reason':'Plan: first supporting detail','writing-plan-example':'Plan: concrete detail','writing-plan-response':'Plan: constructive response','writing-plan-conclusion':'Plan: conclusion','writing-draft':'My revised paragraph','writing-strength':'One strong point','writing-suggestion':'One suggestion','writing-change-one':'Revision 1','writing-change-two':'Revision 2','writing-reflection':'Most useful change','writing-next':'Next learning goal','writing-apply':'Grammar improvement'};
+ return `English Challenge — ${writingClass}\nUnit 2, Lesson 4: From Challenge to Growth\n\n`+Object.entries(labels).map(([id,label])=>`${label}\n${writingState[id]||''}`).join('\n\n')+`\n\nParagraph word count: ${countWritingWords(writingState['writing-draft']||'')}\n\nSelf-review\n`+writingCriteria.map((criterion,i)=>`${writingState['writing-review-'+i]?'[x]':'[ ]'} ${criterion}`).join('\n');
+}
+function downloadWriting(){
+ collectWritingFields();const blob=new Blob([writingExportText()],{type:'text/plain;charset=utf-8'});const url=URL.createObjectURL(blob);const a=document.createElement('a');a.href=url;a.download=`${writingClass.replace(/ /g,'-')}-unit2-lesson4-writing.txt`;document.body.appendChild(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(url),1000);document.getElementById('writing-save-status').textContent='Text download requested. Check your Downloads folder; if blocked, copy your paragraph before leaving.';
+}
+const baseWritingOpenSubject = openSubject;
+openSubject = function(index){
+ baseWritingOpenSubject(index);
+ if(index===3){
+  if(!publishedFor(selectedClass,index))subjectPanel.innerHTML=`<p class="eyebrow">${selectedClass} · ENGLISH</p><h2 id="subject-title" tabindex="-1">Writing</h2>`;
+  openWritingWorkshop();
+ }
+};
 
 </script>
 </body></html>
